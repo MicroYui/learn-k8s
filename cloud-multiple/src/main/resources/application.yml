@@ -1,0 +1,13 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: MultipleService
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos.k8s:8848
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:10086/eureka

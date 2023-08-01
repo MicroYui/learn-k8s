@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: PlusService
+  cloud:
+    nacos:
+      discovery:
+        server-addr: nacos.k8s:8848
